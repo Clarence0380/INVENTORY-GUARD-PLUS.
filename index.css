@@ -1,0 +1,395 @@
+.frame-child {
+  width: 1166px;
+  height: 710px;
+  position: relative;
+  background-color: var(--color-blueviolet);
+  filter: blur(4px);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.background-1-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-item {
+  width: 125px;
+  height: 125px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  display: none;
+  z-index: 2;
+}
+.text {
+  margin: 0;
+  width: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 1;
+}
+.text-wrapper {
+  height: 131px;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 73px 0 0;
+  box-sizing: border-box;
+}
+.image-1-icon {
+  height: 147px;
+  width: 147px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-parent,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-parent {
+  align-self: stretch;
+  width: 221px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper {
+  width: 579px;
+  height: 147px;
+  justify-content: center;
+  max-width: 100%;
+}
+.inventory-guard-plus {
+  height: 73px;
+  width: 306px;
+  position: relative;
+  display: inline-block;
+  font-weight: 900;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 2;
+}
+.inventory-guard-plus-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+}
+.inventory-guard-plus-label-child {
+  width: 622px;
+  height: 457px;
+  position: relative;
+  border-radius: var(--br-25xl);
+  display: none;
+  max-width: 100%;
+}
+.email-or-phone {
+  width: 116px;
+  position: relative;
+  display: inline-block;
+  font-weight: 300;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.show-password-toggle {
+  height: 31px;
+  flex: 1;
+  position: relative;
+  border-radius: 14px;
+  background-color: var(--color-gainsboro);
+  min-width: 315px;
+  max-width: 100%;
+  z-index: 2;
+}
+.frame-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-60xl);
+  background-color: var(--color-gold-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.login1 {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray);
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 49px;
+  z-index: 3;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 28px;
+  width: 74px;
+  position: relative;
+}
+.show-password-toggle-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px;
+  max-width: 100%;
+}
+.password {
+  width: 77px;
+  position: relative;
+  display: inline-block;
+  font-weight: 300;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 77px;
+  z-index: 2;
+}
+.login-form {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.rectangle-div {
+  height: 31px;
+  width: 485px;
+  position: relative;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.showpass-1-icon {
+  height: 33px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.rectangle-container {
+  width: 485px;
+  height: 33px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.facebook-1-icon,
+.google-1-icon {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  object-fit: cover;
+  min-height: 45px;
+  z-index: 2;
+}
+.google-facebook-logo,
+.login-buttons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-buttons {
+  height: 45px;
+  flex-direction: row;
+  gap: 12px;
+}
+.google-facebook-logo {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.forgot-password {
+  width: 134px;
+  position: relative;
+  display: inline-block;
+  font-weight: 300;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.google-facebook-logo-parent {
+  width: 310px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.email-or-phone-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9.333333333333334px;
+  max-width: 100%;
+}
+.new-account-input-child {
+  height: 96px;
+  width: 300px;
+  position: relative;
+  border-radius: var(--br-60xl);
+  background-color: var(--color-gold-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  display: none;
+}
+.create-new-account {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 900;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray);
+  text-align: center;
+  z-index: 3;
+}
+.new-account-input,
+.signup-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.new-account-input {
+  cursor: pointer;
+  border: 0;
+  padding: 33px 27px var(--padding-15xl) 32px;
+  background-color: var(--color-gold-200);
+  width: 300px;
+  border-radius: var(--br-60xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 2;
+}
+.new-account-input:hover {
+  background-color: #cca100;
+}
+.signup-form {
+  width: 550px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.inventory-guard-plus-label,
+.login-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inventory-guard-plus-label {
+  border-radius: var(--br-25xl);
+  background-color: rgba(99, 57, 188, 0.7);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  backdrop-filter: blur(4px);
+  align-items: flex-start;
+  padding: 66px var(--padding-lgi) var(--padding-33xl) 36px;
+  box-sizing: border-box;
+  gap: 50px;
+  z-index: 1;
+  margin-top: -43px;
+  color: var(--color-gold-300);
+}
+.login-button {
+  align-items: flex-end;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gold-200);
+}
+.login,
+.rectangle-parent {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-lgi) 272px var(--padding-33xl);
+  box-sizing: border-box;
+  gap: 5px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.login {
+  width: 100%;
+  background-color: var(--color-white);
+  backdrop-filter: blur(4px);
+  overflow: hidden;
+  flex-direction: row;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .text {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .inventory-guard-plus-label {
+    gap: 25px 50px;
+  }
+  .rectangle-parent {
+    padding: var(--padding-xl) 136px var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-10xl);
+  }
+  .inventory-guard-plus-label {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .rectangle-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
